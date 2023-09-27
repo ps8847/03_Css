@@ -1,0 +1,14 @@
+p{
+	color: red;
+}
+#paragraph_id{
+	color: hotpink;
+}
+
+.paragraph_id1{
+	color: rgb(123, 10, 88);
+}
+
+h3,h2{
+	color: green;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: 21px/29px arial;
+            padding: 10px 0 0 20px;
+        }
+        
+        h1 {
+            font-size: 28px;
+            margin-bottom: 35px;
+        }
+        
+        p {
+            font-size: 37px;
+            margin-top: 200px;
+        }
+        
+        p::before {
+            content: "hello ";
+            background: red;
+            color: white;
+        }
+        
+        p::after {
+            content: "world";
+            background: green;
+            color: white;
+        }
+        
+        #p2::before {
+            content: "hello ";
+            background: red;
+            color: white;
+            display: block;
+            margin-bottom: 5px;
+        }
+        /* #p2::after {
+            content: "world";
+            background: green;
+            color: white;
+            display: block;
+            margin-top: 5px;
+        } */
+        
+        #p2:hover::after {
+            content: "world";
+            background: green;
+            color: white;
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>after and before turorial</h1>
+
+    <p>learn web design from me </p>
+
+    <p id="p2">learn web design from me again</p>
+</body>
+
+</html>

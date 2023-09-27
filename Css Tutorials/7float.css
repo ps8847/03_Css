@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+	/*color: red;*/
+}
+
+body{
+	font-family: 'Ubuntu' , sans-serif;
+}
+
+.container{
+	width: 900px;
+	border: 3px solid purple;
+	background-color: rgb(250, 226, 205);
+	margin: 33px auto;
+}
+
+.item{
+	border: 3px solid grey;
+	margin: 12px 3px;
+	padding: 20px 20px;
+	background: rgb(248, 238, 238);
+}
+
+#fruit{
+	float: right;
+	width: 70%;
+}
+
+/*#computer {
+	float: left;
+	width: 48%;
+}
+
+#stationary{
+	float: left;
+	clear: both;
+	clear: left;
+	width: 100%;
+}
+
+p,h3{
+	text-align: justify;
+}
+
+h1{
+	margin: 23px auto;
+	width: 455px;
+}*/

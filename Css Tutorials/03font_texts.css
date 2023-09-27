@@ -1,0 +1,12 @@
+#firstpara{
+	font-family: "Arial";
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bolder;
+	line-height: 5.30m;
+}
+.pp{
+	text-align: right;
+	text-transform: capitalize;
+	text-shadow: 0px 0px 5px black;
+}

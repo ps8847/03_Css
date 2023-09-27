@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>content</title>
+</head>
+
+<body>
+    <!-- desi tareeka
+    hello <q>html !! </q><br> hello <q>html !! </q><br> hello <q>html !! </q><br> hello <q>html !! </q><br> hello <q>html !! </q><br> -->
+
+    <style>
+        .displayquotes::before {
+            content: open-quote;
+        }
+        
+        .displayquotes::after {
+            content: close-quote;
+        }
+        
+        .displaystring::before {
+            content: "hello ";
+        }
+        
+        .displayImage::after {
+            content: url('images/profile-3.jpeg');
+        }
+    </style>
+
+    hello <q>html!</q>
+    <br> hello <span class="displayquotes">html!</span> <br>
+    <br> <span class="displaystring">html!</span> <br>
+    <br> <span class="displayImage">html!</span> <br>
+</body>
+
+</html>

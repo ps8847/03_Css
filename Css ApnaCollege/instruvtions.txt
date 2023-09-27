@@ -1,0 +1,5 @@
+topics which cna be googled and implemented easily
+
+flexbox
+grid
+animations , transitions

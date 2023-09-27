@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+
+.container{
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50% -50%);
+}
+
+.container .box{
+	width: 60px;
+	height: 100px;
+	background: red;
+	position: absolute;
+	animation: move 2s ease-out infinite;
+	/*border-radius: 3px;*/
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+.container .box:nth-child(1){
+	background: yellow;
+	z-index: 6;
+	/*animation-delay: 0.05s;*/
+}
+.container .box:nth-child(2){
+	background: orange;
+	z-index: 5;
+	animation-delay: 0.10s;
+}
+.container .box:nth-child(3){
+	background: red;
+	z-index: 4;
+	animation-delay: 0.15s;
+}
+.container .box:nth-child(4){
+	background: crimson;
+	z-index: 3;
+	animation-delay: 0.20s;
+}
+.container .box:nth-child(5){
+	background: darkred;
+	z-index: 2;
+	animation-delay: 0.25s;
+}
+.container .box:nth-child(6){
+	background: brown;
+	z-index: 1;
+	animation-delay: 0.30s;
+}
+
+@keyframes move{
+	0% {}
+	20% {
+		transform: translate(60px) rotate(90deg);
+	}
+	40%{
+		transform: translate(-80px) rotate(270deg);
+	}
+	60%{
+		transform: rotate(360deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		
+	</div>
+</body>
+</html>
